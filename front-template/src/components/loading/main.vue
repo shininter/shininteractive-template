@@ -7,12 +7,12 @@
         <div
           :class="isAndroid ? 'pageloaidngicon' : 'pageloaidngicon1' "
           class=" icon1">
-          <img src="../../assets/images/loading/jdt0.png" alt>
+       
         </div>
         <div
           :class="isAndroid ? 'pageloaidngicon' : 'pageloaidngicon1' "
           class=" icon2" :style="iconstyle">
-          <img src="../../assets/images/loading/jdt100.png" alt>
+         
         </div>
         <div class="text">{{percent}}%</div>
       </div>

@@ -8,15 +8,12 @@
 
 import Vue from 'vue'
 import './components'
-import ghost from './npm'
 import App from './App.vue'
 import router from './router'
 import VueTouch from 'vue-touch'
-import store from './store/index'
 import "amfe-flexible/index.js"
 
 Vue.use(VueTouch, { name: 'v-touch' })
-Vue.use(ghost)
 
 // 阻止 vue 在启动时生成生产提示。
 // Vue.config.productionTip = false

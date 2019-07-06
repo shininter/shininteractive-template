@@ -36,7 +36,7 @@
           <img v-show='signNum!=7' class="img" :src='imgList.dialog.noXuanZhong'></img>
         </div>
       <div class="footer" >
-        <img class="btn" @click="go" src="../../assets/gif/gif_3.gif" alt>
+        <img class="btn" @click="go"  alt>
       </div>
       </div>
     </div>
@@ -44,8 +44,8 @@
     <!-- 打卡公约 -->
     <div v-show="isShow && popType === 3" class="tip-dialog">
       <div class="content bg3">
-        <div class="word-1">星球公民需参与3次打卡，记录你的微生态小黑瓶的给皮肤带来的变化；打卡成功后即可解锁星球惊喜好礼。</div>
-        <div class="word-2">作为首批试用者，打卡后进入兰蔻专属微生态星球圈，发布你的7天试用感受，为星球贡献第一手试用信息。 </div>
+        <div class="word-1">shininter</div>
+        <div class="word-2">shininter </div>
         <div class="btn"
           @click='queRen'>
           确认

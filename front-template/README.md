@@ -4,6 +4,19 @@
 
 前端web app 框架当前第一版本为基于 veu-cli3 做了基础的改造
 后期项目如果没有特殊的需求，将在此版本上进行迭代。
+项目初始化：
+```
+step1:git clone https://github.com/shininter/shininteractive-template/tree/master/front-template
+
+step2：进入项目文件目录，运行
+npm install 
+或者 
+yarn install 
+
+dev 版本 命令：npm run dev
+prd 版本 命令：npm run prd
+
+```
 目前暴露的几个约束为
 ### 1 首页HTML
 首页index.html路径为 ```public```
